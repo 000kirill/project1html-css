@@ -1,0 +1,188 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap);
+* { 
+    margin: 0;
+  }
+
+body {
+    background-color: black;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    top: 0px;
+    height: fit-content;
+    background-color: #c11515;
+    position: sticky;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.sticky_nav {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
+    opacity: 0.7;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.sticky_nav:hover {
+    opacity: 1
+}
+ 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    padding-top: 30px;
+    height: 220px;
+    text-align: center;
+    background-image: url("background.png");
+}
+
+.footer_heading {
+    padding-right: 60px;
+}
+
+.footer_heading_text {
+    margin-top: 20px;
+}
+
+.footer_button {
+    display:inline-block;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-size: 20px;
+    color: #000;
+    border-style: none;
+    cursor: pointer;
+    position: relative;
+    transition: all 3s;
+    z-index: 1;
+}
+
+.block {
+    width: 100%;
+    padding: 20px;
+    line-height: 24px;
+    height: fit-content;
+    box-sizing: border-box;
+    opacity: 0.7;
+    transition: opacity 0.7s ease-in-out;
+}
+
+.block:hover {
+    opacity: 1;
+}
+
+.main_content {
+    overflow-x: hidden 
+}
+
+.main_slogan {
+    width: 40%;
+    box-sizing: border-box;
+}
+
+.main_image-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_info {
+    float: right;
+    width: 50%;
+    text-align: justify;
+}
+
+.main_about-game {
+    clear: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main_image {
+    height: 500px;
+}
+
+.main_about-image {
+    width: 100%;
+}
+
+.about_hd {
+    margin-right: 3%;
+    opacity: 0.7;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.about_hd:hover {
+    opacity: 1;
+}
+
+.about_dlc {
+    margin-top: 2%;
+    opacity: 0.7;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.about_dlc:hover {
+    opacity: 1;
+}
+
+.about_screens {
+    opacity: 0.7;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.about_screens:hover {
+    opacity: 1;
+}
+
+.about {
+    width: 37%;
+    text-align: center;
+}
+
+.about_weapon {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom:20px ;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+}
+
+.weapon_text {
+    margin-bottom: 10px;
+    opacity: 0.7;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.weapon_text:hover {
+    opacity: 1;
+}
+
+.weapon_list {
+    opacity: 0.7;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.weapon_list:hover {
+    opacity: 1;
+}
+
+.span_weapon {
+    font-weight: bold;
+}
